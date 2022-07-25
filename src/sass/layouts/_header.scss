@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: $color-primary;
+}
+
+.logo {
+    display: flex;
+    margin-left: 40px;
+    img {
+        width: 60px;
+        margin-right: 20px;
+    }
+    p {
+        font-size: 48px;
+        color: white;
+    }
+} 

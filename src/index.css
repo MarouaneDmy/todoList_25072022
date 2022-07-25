@@ -1,0 +1,50 @@
+/* Couleurs */
+h1 {
+  font-size: 48px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #F8F3F3;
+}
+
+header {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: #C84754;
+}
+
+.logo {
+  display: flex;
+  margin-left: 40px;
+}
+.logo img {
+  width: 60px;
+  margin-right: 20px;
+}
+.logo p {
+  font-size: 48px;
+  color: white;
+}
+
+button {
+  height: 43px;
+  width: 228px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #C84754;
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */

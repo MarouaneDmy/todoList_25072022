@@ -1,0 +1,9 @@
+@mixin button {
+    height: 43px;
+    width: 228px;
+    border-radius: 30px;   
+    border: 0;
+    background-color: $color-primary; 
+    color: white;
+    font-size: 24px;
+}
