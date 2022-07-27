@@ -3,6 +3,10 @@ h1 {
   font-size: 48px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -38,6 +42,7 @@ button {
   background-color: #C84754;
   color: white;
   font-size: 24px;
+  cursor: pointer;
   margin-left: 40px;
 }
 
@@ -45,6 +50,139 @@ button {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+.todoList {
+  margin-top: 80px;
+}
+
+.taskUnique {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px black solid;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.taskTitle span {
+  font-size: 32px;
+}
+.taskTitle__done {
+  color: white;
+}
+
+.taskDescription span {
+  color: #8A8A8A;
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 0;
+}
+.taskDescription__done {
+  color: white;
+}
+
+hr {
+  position: absolute;
+  border: 2px solid black;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1040;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  z-index: 100;
+  background: #fff;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 80%;
+  padding: 1rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-header h2 {
+  margin-top: 5px;
+}
+
+.modal-close-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.modal-close-button span {
+  font-size: 40px;
+}
+
+button.modal-toggle {
+  background-color: turquoise;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.errorMessage {
+  font-size: 18px;
+  color: red;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-wrapper label {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.input-wrapper input {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid;
+}
+
+.validateButton {
+  display: flex;
+  justify-content: center;
+}
+.validateButton button {
+  margin: 0;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,23 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    label {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    input {
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid;
+    }
+}
+
+.validateButton {
+    display: flex;
+    justify-content: center;
+    button {
+        margin: 0;
+    }
+}
