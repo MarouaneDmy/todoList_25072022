@@ -34,6 +34,7 @@ export default function TodoList(props) {
         p: 4,
     };
 
+    /* Creating a state for the modal. */
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);

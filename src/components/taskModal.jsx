@@ -15,6 +15,7 @@ export default function TaskModal({ isShowing, hide }) {
         state: false,
     }) 
 
+    /* A hook that allows you to use state in a functional component. */
     const [errorMessage, setErrorMessage] = React.useState()
 
     /**
