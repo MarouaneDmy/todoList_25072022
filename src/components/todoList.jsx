@@ -86,18 +86,9 @@ export default function TodoList(props) {
                     : <ListItem
                         className="taskUnique"
                         key={el.id}
-                        secondaryAction={
-                            <Checkbox
-                                edge="end"
-                                onChange={handleToggle(el)}
-                                defaultChecked
-                                inputProps={{ 'aria-labelledby': labelId }}
-                            />
-                        }   
                         disablePadding
                         sx={{bgcolor: 'red' }}
                     >
-                    <hr className="done"></hr>
                     <ListItemButton className="task" onClick={handleOpen}>
                         <div>
                             <ListItemText className="taskTitle taskTitle__done" id={labelId} primary={el.title} />

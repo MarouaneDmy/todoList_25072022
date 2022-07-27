@@ -88,6 +88,7 @@ hr {
   border: 2px solid black;
   width: 100%;
   z-index: 1;
+  transform: rotate(2.5deg);
 }
 
 .modal-overlay {
